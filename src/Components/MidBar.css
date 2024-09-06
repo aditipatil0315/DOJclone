@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+.main {
+    height: 50px;
+    width: 100%;
+
+}
+.content {
+    height: 135px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.content .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1;
+}
+
+.content .one p {
+    font-family: "baloo 2";
+    font-size: 30px;
+}
+
+.one i {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.one h3 {
+    font-size: 30px;
+}
+
+.content .two img{
+    padding-left: 1rem;
+}

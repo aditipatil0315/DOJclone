@@ -1,0 +1,56 @@
+
+
+.topbar {
+    height: 39px;
+    width: 100vw;
+    background-color: #E5E2DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.text {
+    padding: 0 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left p {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    /* gap: 1.5rem; */
+
+}
+
+.right p {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 1rem;
+    cursor: pointer;
+
+
+}
+
+.right i {
+    font-size: 1.2rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.436);
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
