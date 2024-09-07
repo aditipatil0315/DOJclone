@@ -1,6 +1,15 @@
 import React from 'react'
 import './Navbar.css'
 import banner_img from '../assets/banner_2.jpg'
+import image1 from '../assets/image1.png'
+import image2 from '../assets/image2.png'
+import image3 from '../assets/image3.png'
+import image4 from '../assets/image4.png'
+import image5 from '../assets/image5.png'
+import image6 from '../assets/image6.png'
+import image7 from '../assets/image7.png'
+
+
 
 const Navbar = () => {
   return (
@@ -50,20 +59,65 @@ const Navbar = () => {
             <p>Whats New</p>
             <ul>
                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit!</li>
+                <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet. amet.</li>
+                <li>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, eligendi. Lorem ipsum dolor sit.consectetur adipisicing elit. Sit!</li>
                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit!</li>
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing. amet.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit!</li>
             </ul>
 
             </div>
             <div className="card">
+                <div className="box">
+                <i class="fa-solid fa-user"></i>
+                <p>Name</p>
+                <p>Description</p>
+                </div>
 
             </div>
+        </div>
+
+        <div className="image_section">
+            <div className="images">
+                <div className="image one">
+                    <img src= {image1} alt="" />
+                    <p>Citizen Services</p>
+                </div>
+                <div className="image">
+                    <img src= {image2} alt="" />
+                    <p>National Judicial
+                    Data Grid</p>
+                </div>
+                <div className="image">
+                    <img src= {image3} alt="" />
+                    <p>Search Judgements
+                    & Orders</p>
+                </div>
+                <div className="image">
+                    <img src= {image4} alt="" />
+                    <p>Virtual Justice Clock</p>
+                </div>
+                <div className="image five">
+                    <img src= {image5} alt="" />
+                    <p>Know Your Case Status</p>
+                </div>
+                <div className="image">
+                    <img src= {image6} alt="" />
+                    <p>Live Streaming Of Court Cases</p>
+                </div>
+                <div className="image">
+                    <img src= {image7} alt="" />
+                    <p>Settle Your Traffic Violation</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="footer">
+            <p>Website Policies / Hyperlinking Policy / Copyright Policy / Privacy Policy / Terms and Conditions / Feedback Contact Us / Help / FAQ / WIM / Visitor Summary</p>
+            <p>ALL THE CONTENT IS TAKEN FOR PROJECT PURPOSE ONLY FROM OFFICIAL WEBSITE OF DOJ OF INDIA</p>
         </div>
         
     </div>

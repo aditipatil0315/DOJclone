@@ -73,24 +73,36 @@ ul li {
 
 .middle_content {
     width: 100%;
-    background-color: yellow;
+    height: 800px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: start;
+    padding: 30px 70px;
+    gap: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .middle_content .text_1 {
-    width: 30%;
+    width: 45%;
+    height: 100%;
 
 }
 
+.text_1 h3 {
+    font-size: 29px;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
 .middle_content .text_2{
-    width: 30%;
+    width: 45%;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     flex-direction: column;
-    text-align: left;
+
 
 }
  
@@ -98,6 +110,8 @@ ul li {
     display: flex;
     text-align: left;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
     
 }
 
@@ -107,6 +121,95 @@ ul li {
 
 }
 
+.text_2 p {
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .middle_content .card {
     width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .box {
+    border: 3px solid black;
+    background-color: #F3F3F3;
+    border-radius: 30px;
+    height: 300px;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box i {
+    font-size: 90px;
+    padding: 30px;
+}
+
+.box p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.image_section {
+    width: 100%;
+    background-color: #1A6BB6;
+    padding: 0px 70px;
+
+}
+
+.image_section .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    height: 450px;
+    padding: 30px 0;
+
+}
+
+.images .five {
+    margin-left: 200px;
+}
+
+.images .one {
+    margin-left: 30px;
+}
+
+.images .image {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding-top: 12px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.footer {
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(199, 199, 199);
+    cursor: pointer;
 }
