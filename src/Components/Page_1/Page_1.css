@@ -10,4 +10,87 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+
+.chat_box {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid rgba(0, 0, 0, 0.338); */
+}
+
+.messages {
+    height: 600px;
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.386);
+    background-color: #E5E2DB;
+    border-radius: 10px;
+    z-index: 1000;
+    position: fixed;
+    top: 9%;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 50px 30px;
+
+}
+
+.messages i {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.messages input {
+    position: absolute;
+    top: 17%;
+    width: 90%;
+    height: 36px;
+    padding: 5px;
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: 7px;
+}
+
+.messages p {
+    position: absolute;
+    bottom: 3%;
+}
+
+.chat_icon {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    bottom: 3%;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat_icon .icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #FBAC1B;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.chat_icon p {
+    font-weight: 700;
+    color: black;
+    -webkit-text-stroke: 0.2px #E5E2DB;
 }
