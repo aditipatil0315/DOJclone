@@ -12,11 +12,34 @@ const Page_1 = () => {
       <div className="page_1">
         <div className="chat_box">
           {isVisible ? (
+            <div
+              className="messages"
+              // style={{ width: "100%", height: "500px" }}
+            >
+              <i class="fa-solid fa-xmark" onClick={ () => setIsvisible(false)}></i>
+              <iframe
+                className="iframe_box"
+                src="http://localhost:8501"
+                title="AI Chat"
+                // style={{ border: "none", width: "100%", height: "100%" }}
+              ></iframe>
+            </div>
+          ) : (
+            <div className="chat_icon" onClick={() => setIsvisible(true)}>
+              <div className="icon">
+                <i className="fa-solid fa-hand-holding-hand"></i>
+              </div>
+              <p>ChatBox</p>
+            </div>
+          )}
+
+          {/* {isVisible ? (
             <div className="messages">
-              <input type="text" placeholder="Search here" />
-              <i class="fa-solid fa-xmark" onClick={() => setIsvisible(false)}></i>
-              <h3>ChatBox is here to help you -</h3>
-              <p>Answers to your question will appear here.</p>
+              
+                <iframe src="http://localhost:8501" title="AI Chat" style="border: none;"></iframe>
+            
+
+
             </div>
           ) : (
             <div className="chat_icon" onClick={() => setIsvisible(true)}>
@@ -25,7 +48,7 @@ const Page_1 = () => {
               <p> ChatBox</p>
               
             </div>
-          )}
+          )} */}
         </div>
 
         <TopBar />

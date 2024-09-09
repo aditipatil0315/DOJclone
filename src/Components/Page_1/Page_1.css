@@ -21,10 +21,10 @@
 }
 
 .messages {
-    height: 600px;
+    height: 650x;
     width: 500px;
     border: 1px solid rgba(0, 0, 0, 0.386);
-    background-color: #E5E2DB;
+    background-color: #DDDDDD;
     border-radius: 10px;
     z-index: 1000;
     position: fixed;
@@ -33,7 +33,18 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding: 50px 30px;
+    padding: 10px;
+
+}
+
+.messages:hover {
+    background-color: #DDDDDD;
+}
+
+.messages .iframe_box {
+    height: 600px;
+    width: 500px;
+    border: none;
 
 }
 
@@ -87,6 +98,7 @@
 
 .icon i {
     font-size: 30px;
+    
 }
 
 .chat_icon p {
@@ -94,3 +106,4 @@
     color: black;
     -webkit-text-stroke: 0.2px #E5E2DB;
 }
+
